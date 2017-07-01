@@ -6,10 +6,30 @@
 body {
     margin: 0;
     font-family: 'Roboto Slab', 'serif';
-    colo
+    color: #777;
 }
 /* Main Menu Styles Start */
 
+#main-nav {
+    background-color: transparent;
+    border: 0;
+}
 
+
+#main-nav a.navbar-brand {
+    font-size: 2em;
+    font-family: 'Droid Serif', 'sans-serif';
+    text-transform: none;
+}
+
+#main-nav a {
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+#main-nav a:hover {
+    color: #0ed8d6;
+}
 
 /* Main Menu Styles End */
