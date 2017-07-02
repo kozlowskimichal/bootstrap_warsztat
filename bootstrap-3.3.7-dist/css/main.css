@@ -8,6 +8,28 @@ body {
     font-family: 'Roboto Slab', 'serif';
     color: #777;
 }
+
+h1 {
+    font-size: 4em;
+}
+/* Button Styles (ostylowanie przycisku) */
+
+a.btn-blue, .btn-blue {
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    font-family: 'Montserrat', 'sans-serif';
+    text-transform: uppercase;
+    color: #fff;
+    transition: all .3s;
+    padding: 15px 30px;
+}
+
+a.btn-blue, .btn-blue:hover {
+    background-color: #fff;
+    border: 1px solid #0ed8d6;
+    color: #0ed8d6;
+} 
+
 /* Main Menu Styles Start */
 
 #main-nav {
@@ -23,7 +45,7 @@ body {
 }
 
 #main-nav a {
-    color: red;
+    color: #fff;
     text-transform: uppercase;
     font-family: 'Montserrat', 'sans-serif';
 }
@@ -33,3 +55,27 @@ body {
 }
 
 /* Main Menu Styles End */
+
+/* Main Header Menu Styles Start */
+
+#main-header {
+    height: 100vh;
+    width:  100vw;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url(../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    margin:0;
+    position: relative;
+}
+
+#main-header .header-caption {
+    position: absolute;
+    top: 50%;
+    transition: width 2s;
+    
+    
+}
+
+
+
+/* Main Header Menu Styles End */
