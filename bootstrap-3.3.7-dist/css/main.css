@@ -12,6 +12,34 @@ body {
 h1 {
     font-size: 4em;
 }
+
+h3 {
+    font-size: 1.2em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:  'Monserrat, sans-serif'
+    color: #333;
+}
+
+
+section {
+    padding: 60px 0;
+}
+
+section header{
+    margin-bottom: 70px;
+}
+
+section .section-heading {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+section .section-description{
+    font-family: 'Droid Serif, sans-serif';
+    color: #777;
+}
 /* Button Styles (ostylowanie przycisku) */
 
 a.btn-blue, .btn-blue {
@@ -94,23 +122,29 @@ a.btn-blue, .btn-blue:hover {
 
 /* Main Header Styles End */
 
-#section services {
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
+/* Section Services Styles Start */
 
-a.btn-blue, .btn-blue {
-    background-color: #0ed8d6;
+#services .fa {
+    font-size: 3em;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
     border: 1px solid #0ed8d6;
-    font-family: 'Montserrat', 'sans-serif';
+    border-radius: 50%;
     color: #fff;
-    transition: all .3s;
-    padding: 15px 30px;
+    background-color: #0ed8d6;
+    transition: all .3s;   
 }
 
-a.btn-blue, .btn-blue :hover {
-    background-color: #fff;
-    border: 1px solid #0ed8d6;
+
+#services .fa:hover {
     color: #0ed8d6;
+    background-color: #fff;
+    transform: rotate(360deg);
+
 }
+
+
+
+
+/* Section Services Styles Stop */
